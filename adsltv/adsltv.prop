@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "adsltv": {
+      "description": "Actions adsltv",
+      "version": "3.16",
+	  "Auteur": "Avatar Rousseau (Dark Best)"
+    }
+  }
+}

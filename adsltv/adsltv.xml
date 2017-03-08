@@ -1,0 +1,23 @@
+	<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleadsltv" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+    <rule id="ruleadsltv" scope="public">
+    <tag>out.action=new Object(); </tag>
+    <item>SARAH</item>
+	<one-of>
+	<!-- Ouvre adsltv --> 
+ 	<item>affiche adsltv<tag>out.action.val="runadsltv"</tag></item>
+	<item>mai adsltv<tag>out.action.val="runadsltv"</tag></item>
+ 	<item>va sur adsltv<tag>out.action.val="runadsltv"</tag></item>
+	<item>ouvre adsltv<tag>out.action.val="runadsltv"</tag></item>
+	<item>balance adsltv<tag>out.action.val="runadsltv"</tag></item>
+	<item>éxécute adsltv<tag>out.action.val="runadsltv"</tag></item>
+	
+	<!-- Ferme adsltv --> 
+ 	<item>Ferme adsltv<tag>out.action.val="closeadsltv"</tag></item>
+	<item>enlève adsltv<tag>out.action.val="closeadsltv"</tag></item>
+ 	<item>éteins adsltv<tag>out.action.val="closeadsltv"</tag></item>
+	
+	</one-of>
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/adsltv";</tag>
+    </rule> 
+    </grammar>
+    <!-- Réalisation de adsltv part Avatar Rousseau (Dark Best) -->
